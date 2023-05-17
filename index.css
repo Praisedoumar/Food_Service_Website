@@ -220,6 +220,7 @@ section{
     right: 0;
     font-size: 30px;
     padding: 5px 10px;
+    color: rgb(255, 15, 15);
 }
 .service-container{
     display: grid;
@@ -259,4 +260,61 @@ section{
 .cta a{
     margin-right: 50px;
     padding: 10px 20px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.col{
+    width: 25%;
+}
+.col h4{
+    font-size: 1.1rem;
+    color: rgb(255, 15, 15);
+    margin-bottom: 25px;
+    position: relative;
+
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background-color:rgb(9, 119, 18); ;
+}
+.col ul li:not(last-child){
+    margin-bottom: 12px;
+}
+.col ul li a{
+    font-size: 1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.col ul li a:hover{
+    color: rgb(255, 15, 15);
+    transform: translateX(-5px);
+}
+.col .social{
+    width: 220px;
+    color: rgb(52, 107, 165);
+    display: grid;
+    align-items: center;
+    justify-content: inherit;
+    padding: 3px 0;
+    margin: 5px 5px;
+    transition: .5s;
+}
+
+    
+.col .social a:hover{
+    color: rgb(255, 15, 15);
+    transform: translateX(5px);
+    transition: .5s;
 }
