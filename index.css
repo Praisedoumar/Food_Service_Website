@@ -324,8 +324,25 @@ section{
 /* Media Query */
 
 
-@media (max-width: 946px){
+@media (max-width: 950px){
     header{
-        padding: 15px 40px;
+        
+        width: 80%;
+    }
+    :root{
+        font: 2rem;
+    }
+    body{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1140px){
+    section{
+        padding: 50px 8%;
+    }
+    #menu-icon{
+        display: initial;
+        color: black;
     }
 }
