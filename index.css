@@ -316,13 +316,13 @@ section{
 .col .social a:hover{
     color: rgb(255, 15, 15);
     transform: translateX(5px);
-    transition: .7s;
+    transition: .6s;
 }
 
 
 /* Media Query */
 /* Media Query */
-/* Media Query */
+
 
 
 @media (max-width: 950px){
