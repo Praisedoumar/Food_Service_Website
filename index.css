@@ -314,7 +314,7 @@ section{
 
     
 .col .social a:hover{
-    color: rgb(255, 15, 15);
+    color: rgb(255, 15, 16);
     transform: translateX(5px);
     transition: .6s;
 }
