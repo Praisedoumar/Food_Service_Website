@@ -37,8 +37,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 90px;
-    background: var(--bg-color);
+    padding: 20px 90px;
+    background: #d4d2d2;
 }
 .logo{
     color: #000000;
@@ -322,7 +322,7 @@ section{
 
 /* Media Query */
 /* Media Query */
-
+/* Media Query */
 
 
 @media (max-width: 970px){
@@ -331,7 +331,7 @@ section{
         width: 80%;
     }
     :root{
-        font: 2rem;
+        font: 1.5rem;
     }
     body{
         width: 80%;
@@ -340,7 +340,7 @@ section{
 
 @media (max-width: 1140px){
     section{
-        padding: 50px 8%;
+        padding: 50px 10%;
     }
     #menu-icon{
         display: initial;
