@@ -367,7 +367,7 @@ section{
         /* width: 50%; */
     }
     header{
-        padding: 10px 16px;
+        padding: 11px 16px;
     }
     .home{
         grid-template-columns: 1fr;
